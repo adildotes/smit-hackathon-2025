@@ -154,7 +154,7 @@ export default function LoanPopup({ category, onClose }: any) {
                 </Label>
                 <Input
                   id="name"
-                  placeholder="saad"
+                  placeholder="asaanevent"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -179,7 +179,7 @@ export default function LoanPopup({ category, onClose }: any) {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="saaddotes@gmail.com"
+                  placeholder="asaanevent@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
