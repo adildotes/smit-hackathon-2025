@@ -18,8 +18,7 @@ const app = express();
 app.use(express.json());
 const corsOptions = {
   origin: [
-    "https://hackathon-front-pink.vercel.app",
-    "https://front.wedotes.com",
+    "smit-hackathon-2025-bjyz.vercel.app",
     "http://localhost:3000",
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
